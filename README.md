@@ -31,3 +31,11 @@ All data not in the repo are stored in the Dropbox folder: `qss20_finalproj_rawd
   - Outputs to Dropbox:
     - `merged_addendums_jobdisclosures[csv|pkl]`: csv and pkl format of inner join for text analysis
 
+- [02_textpreprocess_topicmod.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/02_textpreprocess_topicmod.ipynb)
+
+  - Takes in::
+    - Merged jobs and addendums from previous script
+  - What it does:
+    - GROUP ADD
+
+

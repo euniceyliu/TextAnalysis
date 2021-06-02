@@ -7,7 +7,7 @@ All data not in the repo are stored in the Dropbox folder: `qss20_finalproj_rawd
 
 # Code
 
--[00_rowbinddata.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/00_rowbinddata.ipynb)
+- [00_rowbinddata.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/00_rowbinddata.ipynb)
 
  - Takes in following files stored on Github or in Dropbox:
     - `H-2A_Disclosure_Data_FY[].xlsx`: data containing FY 2020 and FY 21 Q1 H2A job clearances
@@ -19,7 +19,7 @@ All data not in the repo are stored in the Dropbox folder: `qss20_finalproj_rawd
     - `H-2A_Disclosure_Data_FY_combined_202021Q1.csv`: rowbound job disclosures
     - `FOIA_2021-F-05932_raw_data_combined_202021Q1.csv`: rowbound job addendums
 
--[01_sampledescriptives.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/01_sampledescriptives.ipynb)
+- [01_sampledescriptives.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/01_sampledescriptives.ipynb)
 
  - Takes in::
     - Rowbound outputs of previous scripts

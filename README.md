@@ -8,7 +8,6 @@ All data not in the repo are stored in the Dropbox folder: `qss20_finalproj_rawd
 # Code
 
 - [00_rowbinddata.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/00_rowbinddata.ipynb)
-
  - Takes in following files stored on Github or in Dropbox:
     - `H-2A_Disclosure_Data_FY[].xlsx`: data containing FY 2020 and FY 21 Q1 H2A job clearances
     - `FOIA_2021-F-05932_raw_data.xlsx`: data from FOIA request on addendums; stored in a couple sheets

@@ -37,6 +37,11 @@ All data not in the repo are stored in the Dropbox folder: `qss20_finalproj_rawd
   - Takes in::
     - Merged jobs and addendums from previous script
   - What it does:
-    - GROUP ADD
+    - Calculates top words in each corpus
+    - Provides a template to investigate  top words of interest
+    - Creates a topic model using Linear Discriminant Analysis (LDA) algorithm
+    - Creates visualizations of top words for given topics
+
+
 
 

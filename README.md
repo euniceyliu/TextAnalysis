@@ -1,8 +1,9 @@
 
 # Data 
 
-- `H-2A_Disclosure_Data_FY[].xlsx` is a public data source of H-2A job postings from the Department of Labor 
+- `H-2A_Disclosure_Data_FY[].xlsx` is a public data source of H-2A job postings from the Department of Labor.
 - `FOIA_2021-F-05932_raw_data.xlsx`is processed data from a Freedom of Information Act (FOIA) request submitted by TRLA
+- The combined zip includes combined data for FOIA. All other combined data is stored in the dropbox.
 
 All data too large for this repo are stored in the shared Dropbox folder: `qss20_finalproj_rawdata/textasdata/`
 

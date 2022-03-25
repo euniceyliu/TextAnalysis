@@ -1,18 +1,18 @@
-# Characterization and Comparison of Topics and Top 004 Words in the H2-A Job Postings 
+# Characterization and Comparison of Topics and Top Words in the H2-A Job Postings 
 
 # Data 
 
 - `H-2A_Disclosure_Data` is a [public data source of H-2A job postings](https://www.dol.gov/agencies/eta/foreign-labor/performance) from the Department of Labor. 
-- `FOIA_2021-F-05932_raw_data`is the processed data from a Freedom of Information Act (FOIA) request 
+- `FOIA_2021-F-05932_raw_data` is the processed data from a Freedom of Information Act (FOIA) request 
 - The combined zip includes combined data (across fiscal years) for the Disclosure/H-2A job postings from the DOL. All other combined data is stored in the dropbox below.
 
 All data too large for this repo are stored in the shared Dropbox folder: `qss20_finalproj_rawdata/textasdata/`
 
 # Code
 
-- [00_rowbinddata.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/00_rowbinddata.ipynb)
+- [00_rowbinddata.ipynb](https://github.com/euniceyliu/TextAnalysis/blob/main/code/00_rowbinddata.ipynb)
   - Takes in following files stored on Github or in Dropbox:
-    - `H-2A_Disclosure_Data_FY[].xlsx`: data containing FY 2020 and FY 21 Q1 H2A job clearances
+    - `H-2A_Disclosure_Data`: data containing FY 2020 and FY 21 Q1 H2A job clearances
     - `FOIA_2021-F-05932_raw_data.xlsx`: data from FOIA request on addendums; stored in a couple sheets
   - What it does:
     - Reads in the different job disclosure datafiles and rowbinds
@@ -21,7 +21,7 @@ All data too large for this repo are stored in the shared Dropbox folder: `qss20
     - `H-2A_Disclosure_Data_FY_combined_202021Q1.csv`: rowbound job disclosures
     - `FOIA_2021-F-05932_raw_data_combined_202021Q1.csv`: rowbound job addendums
 
-- [01_sampledescriptives.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/01_sampledescriptives.ipynb)
+- [01_sampledescriptives.ipynb](https://github.com/euniceyliu/TextAnalysis/blob/main/code/01_sampledescriptives.ipynb)
 
   - Takes in::
     - Rowbound outputs of previous scripts
@@ -34,7 +34,7 @@ All data too large for this repo are stored in the shared Dropbox folder: `qss20
   - Outputs to Dropbox:
     - `merged_addendums_jobdisclosures[csv|pkl]`: csv and pkl format of inner join for text analysis
 
-- [02_textpreprocess_topicmod.ipynb](https://github.com/eunice30718/QSS20_TEXTASDATA_PROJ/blob/main/code/02_textpreprocess_topicmod.ipynb)
+- [02_textpreprocess_topicmod.ipynb](https://github.com/euniceyliu/TextAnalysis/blob/main/code/02_textpreprocess_topicmod.ipynb)
 
   - Takes in::
     - Merged jobs and addendums from previous script

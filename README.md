@@ -1,8 +1,9 @@
+# Characterization and Comparison of Topics and Top 004 Words in the H2-A Job Postings 
 
 # Data 
 
-- `H-2A_Disclosure_Data_FY[].xlsx` is a public data source of H-2A job postings from the Department of Labor.
-- `FOIA_2021-F-05932_raw_data.xlsx`is processed data from a Freedom of Information Act (FOIA) request submitted by TRLA
+- `H-2A_Disclosure_Data` is a [public data source of H-2A job postings](https://www.dol.gov/agencies/eta/foreign-labor/performance) from the Department of Labor. 
+- `FOIA_2021-F-05932_raw_data`is the processed data from a Freedom of Information Act (FOIA) request 
 - The combined zip includes combined data (across fiscal years) for the Disclosure/H-2A job postings from the DOL. All other combined data is stored in the dropbox below.
 
 All data too large for this repo are stored in the shared Dropbox folder: `qss20_finalproj_rawdata/textasdata/`

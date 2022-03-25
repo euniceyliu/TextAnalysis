@@ -1,6 +1,5 @@
 # Characterization and Comparison of Topics and Top Words in the H2-A Job Postings 
-This repo contains the final project that I did with two other peers in Dartmouth QSS20: Modern Statistical Computing. This project explored the  
-textual data from the H-2A job postings with the goal of modeling and identifying common themes and topics across the postings, which would be helpful to more easily and accurately detect future violations and further ensure the rights of the guest workers. 
+This repo contains the final project that I did with two other peers in Dartmouth QSS20: Modern Statistical Computing. This project explored the textual data from the H-2A job postings with the goal of modeling and identifying common themes and topics across the postings, which would be helpful to more easily and accurately detect future violations and further ensure the rights of the guest workers. 
 
 # Data 
 

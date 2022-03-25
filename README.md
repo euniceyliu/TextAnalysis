@@ -3,7 +3,7 @@ This repo contains the final project that I did with two other peers in Dartmout
 
 # Data 
 
-- `H-2A_Disclosure_Data` is a [public data source of H-2A job postings](https://www.dol.gov/agencies/eta/foreign-labor/performance) from the Department of Labor. 
+- `H-2A_Disclosure_Data` is a [public data source of H-2A job postings](https://www.dol.gov/agencies/eta/foreign-labor/performance) from the Department of Labor (DOL). 
 - `FOIA_2021-F-05932_raw_data` is the processed data from a Freedom of Information Act (FOIA) request 
 - The combined zip includes combined data (across fiscal years) for the Disclosure/H-2A job postings from the DOL. All other combined data is stored in the dropbox below.
 

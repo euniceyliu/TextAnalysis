@@ -28,7 +28,7 @@ All data too large for this repo are stored in the shared Dropbox folder: `qss20
     - Rowbound outputs of previous scripts
   - What it does:
     - Concatenates addendums within the same job clearance number (`CASE_NUMBER`) across sections
-    - Detects for spanish phrases and removes aggregated addendums with any Spanish
+    - Detects for Spanish phrases and removes aggregated addendums with any Spanish
     - Left joins job disclosures to addendums and creates indicator for disclosures without any text addendum
     - Compares attributes of jobs with and without addendums
     - For text analysis, does inner join of disclosures to addendums (so only retains jobs with English addendums)
